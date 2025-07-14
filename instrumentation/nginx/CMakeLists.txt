@@ -23,6 +23,8 @@ add_library(otel_ngx_module SHARED
   src/otel_ngx_module_modules.c
   src/propagate.cpp
   src/script.cpp
+  src/post_batch_span_processor.cpp
+  src/post_span_processor.cpp
 )
 
 target_compile_options(otel_ngx_module
