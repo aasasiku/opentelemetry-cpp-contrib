@@ -41,6 +41,7 @@ extern ngx_module_t otel_ngx_module;
 
 namespace trace = opentelemetry::trace;
 namespace nostd = opentelemetry::nostd;
+namespace common = opentelemetry::common;
 namespace sdktrace = opentelemetry::sdk::trace;
 namespace otlp = opentelemetry::exporter::otlp;
 
